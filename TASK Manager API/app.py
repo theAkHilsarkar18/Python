@@ -79,3 +79,16 @@ api.add_resource(TaskResource, '/tasks/<int:task_id>')
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+# Example data input format
+
+# {
+#     "name": "Updated Task Name",
+#     "priority": "Low",
+#     "assign_by": "Alice",
+#     "assign_to": "Charlie",
+#     "date": "2024-07-19T00:00:00",
+#     "description": "Updated task description"
+# }
+
+# Website : http://127.0.0.1:5000/tasks
