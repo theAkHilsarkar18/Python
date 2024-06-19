@@ -1,3 +1,5 @@
+# pip install Flask Flask-RESTful Flask-SQLAlchemy
+
 from flask import Flask, request, jsonify
 from flask_restful import Api, Resource
 from flask_sqlalchemy import SQLAlchemy
