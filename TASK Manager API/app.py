@@ -80,7 +80,7 @@ api.add_resource(TaskListResource, '/tasks')
 api.add_resource(TaskResource, '/tasks/<int:task_id>')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
 
 # Example data input format
 
@@ -93,4 +93,4 @@ if __name__ == '__main__':
 #     "description": "Updated task description"
 # }
 
-# Website : http://127.0.0.1:5000/tasks
+# Website : http://192.168.29.41:5000
