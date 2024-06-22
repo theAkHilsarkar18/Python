@@ -3,6 +3,7 @@
 # print function
 # print("Hello Python")
 
+
 # declaring variable
 # a = 10
 # b = 20

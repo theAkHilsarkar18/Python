@@ -1,3 +1,5 @@
+
+# run  Python --version command to check version successfully installed or not
 # pip install Flask Flask-RESTful Flask-SQLAlchemy
 
 from flask import Flask, request, jsonify
@@ -94,4 +96,4 @@ if __name__ == '__main__':
 #     "description": "Updated task description"
 # }
 
-# Website : http://192.168.29.41:5000
+# Website : [url which you get in terminal while run this code]/tasks
