@@ -1,4 +1,3 @@
-
 # python basics
 
 # print function
