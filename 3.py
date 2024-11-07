@@ -1,7 +1,6 @@
 
 # String Method
 
-
 # capitalize()	Converts the first character to upper case
 # x = "akhil"
 # print(x.capitalize())
